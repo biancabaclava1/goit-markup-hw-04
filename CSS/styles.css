@@ -354,7 +354,7 @@ img{
     display: flex;
     gap: 24px;
 }
-.element-second-section{
+.second-section-div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,5 +362,4 @@ img{
     background-color:#f4f4fd ;
     border-radius: 4px;
     margin-bottom: 8px;
-    
 }
