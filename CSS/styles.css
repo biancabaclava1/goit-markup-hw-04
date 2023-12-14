@@ -354,12 +354,13 @@ img{
     display: flex;
     gap: 24px;
 }
-.second-section-div{
+.li-second-section{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
-    background-color:#f4f4fd ;
+    background-color:#f4f4fd  ;
     border-radius: 4px;
     margin-bottom: 8px;
+    
 }
