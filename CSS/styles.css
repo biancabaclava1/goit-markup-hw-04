@@ -1,0 +1,351 @@
+:root{
+    --text-font-family: 'Roboto', 'Raleway', sans-serif;
+    --brand-color-iris: #4D5AE5;
+    --brand-color-ocean: #404BBF;
+    --brand-color-navvy-blue: #2E2F42;
+    --brand-color-slate: #434455;
+    --brand-color-cornflower: #E7E9FC;
+    --brand-color-cloud: #F4F4FD;
+    
+}
+
+body{
+    font-family: "Roboto" , sans-serif ;
+    color: var(--brand-color-slate);
+    background-color: #FFFFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.link{
+    text-decoration: none;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color-iris);
+    margin-right: 76px;
+    padding: 24px 0 24px 0;
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+.span-class{
+    color: #F4F4FD;
+}
+.link-for-sudio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.link-for-sudio:hover{
+    color: #404bbf;
+
+}
+
+.link-for-sudio:focus{
+    color:#404bbf ;
+}
+
+.adress-class{
+    font-style: normal;
+
+}
+
+
+.mail-adress{
+    font-size: 16px;
+   line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455 ;
+
+}
+.mail-adress:hover{
+    color:  #404bbf;
+
+}
+.mail-adress:focus{
+    color: #404bbf;
+}
+
+.section-one{
+    background-color:  #2e2f42;
+    padding: 188px 0 188px 0;
+
+}
+.title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff ;
+    max-width: 496px;
+
+}
+.order-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.order-button:hover{
+    background-color: #404bbf;
+
+}
+.order-button:focus{
+    background-color: #404bbf;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.title-section{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px ;
+
+}
+.goal-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;
+    letter-spacing: 0.02em;
+
+}
+.doing{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+
+}
+.our-team{
+    background-color: #F4F4FD;
+    padding: 120px 0 120px;
+
+}
+
+.team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  #2e2f42;
+    margin-bottom: 72px;
+
+}
+.mark{
+    background-color: #FFFFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+
+
+}
+.jobs{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+
+}
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0 100px;
+
+}
+.webstudio-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.last-paragraph{
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .all-web-app{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#4d5ae5 ;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px 12px ;
+    border:1px solid var(--brand-color-cornflower);
+    border-radius: 4px;
+
+
+  }
+  .all-web-app:hover{
+    color:#ffffffff;
+    background-color:#404BBF ;
+    border: 1px solid transparent; 
+  }
+  .all-web-app:focus{
+    color:#FFFFFFFF ;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+  }
+.all-port-images{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+
+}
+.portofolio-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.span-header{
+    color: #2e2f42;
+
+}
+.backgroundc{
+    background-color: #FFFFFFFF;
+    width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px 4px ;
+}
+.header-index{
+    border-bottom: 1px solid #e7e9fc ;
+}
+.header-div{
+     display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.second-section{
+    padding: 120px 0 120px ;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.first-element{
+    width: calc((100% - 72px) / 4) ;
+}
+.third-section{
+    padding-bottom: 120px;
+
+}
+.third-section-list{
+    display: flex;
+    gap: 24px;
+}
+.photos-section{
+    width: calc((100% - 48px) / 3) ;
+
+}
+.team-list-name{
+    display: flex;
+    gap: 24px;
+}
+.name-job-description{
+    padding: 32px 0 32px;
+
+}
+.header-portfolio{
+    border-bottom: 1px solid #e7e9fc ;
+}
+.portfolio-header{
+    display: flex;
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px 0 15px 0 15px;
+}
+.portfolio-nav{
+    display: flex;
+    align-items: center;
+}
+.portfolio-first-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+
+}
+.portfolio-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.porfolio-images-list{
+    display: flex;
+   flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.elements-photos{
+    width: calc((100% - 48px) / 3);
+}
+.app-images-portfolio{
+    padding: 32px 16px,;
+    border: 1px solid #e7e9fc ;
+    border-top: none;
+}
+img{
+    display: block;
+}
+.second-portfolio-section{
+    display: flex;
+    gap: 24px;
+}
